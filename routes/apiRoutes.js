@@ -8,7 +8,7 @@ module.exports = (app) => {
         res.json(notesInput);
     });
 
-    app.post('/api/notes', (res, req) => {
+    app.post('/api/notes', (req, res) => {
         const notesInput = JSON.parse(fs.readFileSync('db/db.json', 'utf-8'));
         const newNote = req.body;
         newNote.id = uuidv4();
