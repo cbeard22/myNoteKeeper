@@ -10,8 +10,7 @@ module.exports = (app) => {
 
     app.post("/api/notes", (res, req) => {
         const notesInput=JSON.parse(fs.readFileSync('db/db.json', 'utf-8'));
-        console.log(req.body);
-        let notes = req.body;
+        const notes = req.body;
         notes.id = uuidv4();
         notesInput.push(notes);
         fs.writeFileSync('db/db.json', JSON.stringify(notesInput));
