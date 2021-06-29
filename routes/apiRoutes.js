@@ -5,7 +5,7 @@ module.exports = function(app){
 function writeToDB(notes){
     notes = JSON.stringify(notes);
     console.log(notes);
-    fs.writeFileSync('./db/db.json', notes, function(err){
+    fs.writeFileSync('../db/db.json', notes, function(err){
         if (err){
             return console.log(Err);
         };
@@ -33,7 +33,7 @@ app.post("/api/notes", (res, req) => {
     res.json(req.body);
 });
 
-app.delete('/app/notes/:id', function(req, res){
+app.delete('/app/notes/:id', (req, res) => {
     let id = req.params.id.toString();
     console.log(id);
 
