@@ -1,11 +1,12 @@
 const fs = require('fs');
-const notesInput = require("../db.json");
-module.exports = function (app) {
+const notesInput = require("../db/db.json");
+
+module.exports = (app) => {
 
     function writeToDB(notes) {
         notes = JSON.stringify(notes);
         console.log(notes);
-        fs.writeFileSync('./db.json', notes, function (err) {
+        fs.writeFileSync('./db/db.json', notes, function (err) {
             if (err) {
                 return console.log(Err);
             };
