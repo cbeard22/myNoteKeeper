@@ -1,1 +1,6 @@
-[{"title":"Welcome","text":"Please enter a note to save!"}]
+[
+    {
+        "title": "Welcome",
+        "text": "Please enter a note to save!"
+    }
+]
