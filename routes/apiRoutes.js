@@ -1,5 +1,5 @@
 const fs = require('fs');
-const notesInput = require("../db/db.json");
+const notesInput = require("./db.json");
 module.exports = function(app){
 
 function writeToDB(notes){
