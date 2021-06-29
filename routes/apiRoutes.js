@@ -12,11 +12,11 @@ function writeToDB(notes){
     });
 };
 
-app.get('/api/notes', function(req, res){
+app.get('/api/notes',(req, res) =>{
     res.json(notesInput);
 });
 
-app.post("/api/notes", function(res, req){
+app.post("/api/notes", (res, req) =>{
     if (notesInput.length == 0){
         req.body.id = "0";
     } else {
@@ -33,7 +33,7 @@ app.post("/api/notes", function(res, req){
     res.json(req.body);
 });
 
-app.delete('/app/notes/:id', function(req, res){
+app.delete('/app/notes/:id', (req, res) =>{
     let id = req.params.id.toString();
     console.log(id);
 
