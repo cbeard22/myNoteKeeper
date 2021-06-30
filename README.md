@@ -1,5 +1,7 @@
 # Express.js: Note Taker
 
+[Link to Live Site](https://agile-lake-65405.herokuapp.com/)
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -10,11 +12,13 @@
 
 ## Description
 
-This application allows the user to input team members and list their name, email, id number, job role, github username, office number, and school. After all of the team members have been entered an HTML page is created listing all of the team members and organizes them by their job role. 
+This application allows the user to input notes into an online database so that they can access their notes from any computer they are using that has access to internet. This will help the user keep track of their notes and they will not have to worry about forgetting a paper note since it can be accessed anywhere that there is internet. 
 
 ## Installation
 
-First download the files from my github. Next you will need to open terminal in VS code and run "npm init y." After this is completed run "npm i jest" and "npm i inquirer." When those are finished installing you will need to get to the "develop folder" bu useing "cd develop." In the terminal on VS code type "node app." The prompts will then run and you can enter in your team members. When you are done you can open the HTML page under the "output" folder. 
+  - First clone this repository to your local device and use VS code or another code editor for the next steps. 
+  - Once you have opened the cloned folder in your code editer, make sure that you have node.js installed on your computer. 
+  - Run "npm init -y" in the terminal and then run "npm i" to install the "uuid" and "express" packages. 
 
 ## Usage
 
