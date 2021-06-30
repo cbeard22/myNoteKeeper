@@ -25,8 +25,8 @@ This application allows the user to input notes into an online database so that 
   - Click on "Get Started" and a new page will load to enter notes. 
   - Enter a title and then below the title enter in the note contents. 
   - When you are satisfied with your note, click on the save icon in the upper right corner. 
-  - The delete button does not work at this time so notes are permanently saved even if the page is refreshed. 
- 
+  - The delete button does work so once you have completed the task or no longer need the reminder, simply click the trash can and the note will be removed.
+  
   ![Screenshot of Get Started HTML page](.//img/getStartScreenshot.png)
 
   ![Screenshot of the notes input HTML page](.//img/notesScreenshot.png)
