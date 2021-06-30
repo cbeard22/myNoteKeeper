@@ -1,5 +1,4 @@
-# 11 Express.js: Note Taker
-# Team Profile Generator
+# Express.js: Note Taker
 
 ## Table of Contents
 - [Description](#description)
