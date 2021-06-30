@@ -8,6 +8,8 @@
 - [License](#license)
 - [Contributing](#contributing)
 
+## Description
+
 This application allows the user to input team members and list their name, email, id number, job role, github username, office number, and school. After all of the team members have been entered an HTML page is created listing all of the team members and organizes them by their job role. 
 
 ## Installation
@@ -21,9 +23,9 @@ First download the files from my github. Next you will need to open terminal in 
   - When you are satisfied with your note, click on the save icon in the upper right corner. 
   - The delete button does not work at this time so notes are permanently saved even if the page is refreshed. 
  
-  ![Screenshot of finished HTML page](./develop/img/demoScreenshot.png)
+  ![Screenshot of Get Started HTML page](.//img/getStartScreenshot.png)
 
-  ![Screenshot of the node prompts in terminal](./develop/img/demoTerminal.png)
+  ![Screenshot of the notes input HTML page](.//img/notesScreenshot.png)
 
 ## Credits
 
